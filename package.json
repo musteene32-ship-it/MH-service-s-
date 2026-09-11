@@ -1,0 +1,16 @@
+{
+  "name": "mh-services",
+  "version": "1.0.0",
+  "private": true,
+  "description": "MH Services earning platform starter with real SQLite registration/login and Member IDs",
+  "main": "server.js",
+  "scripts": { "start": "node server.js", "dev": "node server.js" },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "better-sqlite3": "^11.8.1",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
